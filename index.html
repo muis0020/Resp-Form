@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="mystyle.css" />
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <title>Document</title>
+</head>
+<body>  
+  <header class="masthead">
+    <h1>Responsive Form Assignment for MAD9013</h1>
+    <h2> Please fill out the form</h2>
+  </header>
+   
+  <form action="process.php" method="POST" >
+    <div class="formBox">
+      <label for="uname">Name</label>
+      <input type="text" id="uname" name="uname" placeholder = "your name" value = ""/>
+    </div>
+    <div class="formBox">
+      <label for="uemail">Email</label>
+      <input type="email" id="uemail" name="uemail" placeholder = "your email" value = ""/>
+    </div>
+    <div class="formBox">
+      <label for="uweb">Web address</label>
+      <input type="url" id="uweb" name="uweb" placeholder = "your web address" value = ""/>
+    </div>
+    <div class="formBox">
+      <label for="pwd">Password</label>
+      <input type="password" id="pwd" name="pwd" placeholder = "your password"/>
+    </div>
+    <div class="submit">
+      <input type="button" value="Submit" id="btnSave"/>
+    </div>
+  </form>
+</body>
+</html>
