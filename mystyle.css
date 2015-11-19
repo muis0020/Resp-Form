@@ -58,16 +58,7 @@ label{
   .formBox label{
         display: none;
     }
-    
-   .formBox label:last-child {
-       display: inline;
-       z-index: 9;
-       background-color: white;
-   }
 
-    #pwd{
-        background-color: rgba(0,0,0,0.8);
-    }
 }
 
 @media all and (min-width: 650px){
